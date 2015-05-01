@@ -2,39 +2,66 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
+<<<<<<< HEAD
     android:background="@android:color/background_dark"
     android:layout_height="match_parent"
     android:id="@+id/">
+=======
+    android:background="#ff1f0f09"
+    android:layout_height="match_parent">
+>>>>>>> origin/master
 <Button
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginBottom="50dp"
     android:layout_marginTop="@dimen/activity_horizontal_margin"
+<<<<<<< HEAD
     android:textStyle="normal"
     android:text="@string/button1"
     android:textSize="15pt"
     android:id="@+id/button1"
     style="@style/AppTheme"
     android:typeface="normal" />
+=======
+    android:textStyle="bold"
+    android:text="@string/button1"
+    android:textSize="15pt"
+    android:id="@+id/button1"/>
+>>>>>>> origin/master
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button2"
         android:textSize="15pt"
+<<<<<<< HEAD
         android:layout_marginTop="@dimen/activity_horizontal_margin"
         android:layout_marginBottom="50dp"
         android:id="@+id/button2"
         android:typeface="normal"
         android:textStyle="normal" />
+=======
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/button2"/>
+>>>>>>> origin/master
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:textStyle="normal"
+=======
+        android:textStyle="bold"
+>>>>>>> origin/master
         android:text="@string/button3"
         android:textSize="15pt"
         android:layout_marginTop="@dimen/activity_horizontal_margin"
         android:id="@+id/button3"
+<<<<<<< HEAD
         android:typeface="normal" />
+=======
+       />
+>>>>>>> origin/master
 </LinearLayout>
